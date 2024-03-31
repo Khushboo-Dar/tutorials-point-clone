@@ -1,0 +1,30 @@
+nav{
+    background-color: var(--primary-color);
+    height: 40px;
+    width: 100vw;
+    padding-inline: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.left-nav-section, .right-nav-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.icon{
+    aspect-ratio: 3/2;
+    width: 20px;
+    height: 20px;
+    color: var(--text-color);
+}
