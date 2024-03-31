@@ -1,0 +1,141 @@
+
+#mainNavbar{
+    background-color: #239327;
+    display:flex;
+    align-items: center;
+    height:58px;
+}
+
+#menubutton{
+    color:white;
+    border:none;
+    border-width: 0;
+    border-color:#239327;
+    font-size: medium;
+}
+#dropdn {
+    width: 1rem;
+    height: 1rem; 
+    fill:white;
+}
+#menubutton:active{
+    cursor:pointer;
+    align-items: center;
+    background-color: white;
+    color:#239327;
+}
+
+#menubutton #dropdn:active {
+    transform: rotate(180deg); /* Rotates 180deg for upside down */
+    transition: 0.15s; /* Animation duration for smooth transition */
+    background-color: white;
+    fill:#239327;
+  }
+  .navbar-nav .nav-item a {
+    color:white;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .navbar-nav .nav-item a svg {
+    margin-right: 5px; 
+  }
+  
+  .navbar-nav2 {
+    display: flex; 
+    justify-content: flex-end;
+  }
+  
+  #teach{
+    white-space: nowrap;
+    overflow:hidden;
+    padding-right:5px;
+  }
+  .navbar-nav2 .nav-item {
+    color: white;
+    display: flex;
+    align-items: center;
+   width:150px;
+   height:50px;
+   border-radius:50%;
+   border-color:#6ab46d;
+   font-size:16px;
+   padding-right:2px;
+  }
+ 
+  
+   #themebutton{
+    fill:white;
+    background-color:#239327;
+    border:none;
+   }
+   .navbar-nav2 .nav-item svg {
+    margin-right:2px; /* Maintain margin for spacing */
+    
+  }
+  .header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+ height:65px;
+    cursor:pointer;
+*{
+  box-sizing:border-box;
+}
+
+    header{
+      display:block;
+    }
+
+  }
+  #logoTutPoint{
+    width:200px;
+    height:60x;
+    transform: translateY(80px);
+    margin-left:15px;
+    margin-top:5px;
+    margin-bottom:40px;
+    padding:2px;
+    
+  }
+
+    .header-container {
+      display: flex; /* Enables flexbox layout */
+      align-items: center; /* Vertically aligns content */
+    }
+    
+    .header-container > * { /* Target all direct children */
+      margin-right: 10px; /* Add spacing between elements */
+    }
+
+
+  
+  input[type="search"] {
+    padding: 12px 20px; /* Adjust padding for comfortable typing */
+    border: 1px solid #239327;
+    border-radius: 20px;
+    font-size: 16px;
+    flex-grow: 1;
+    position: relative; 
+  }
+  
+  button[type="submit"] {
+    background-color: transparent; /* Transparent background */
+    border: #239327;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
+  }
+  
+  .fas {
+    color: #239327; /* Set icon color */
+      position: absolute; /* Absolutely position the icon */
+      right: 10px; /* Place it 10px from the right edge */
+      top: 50%; /* Center it vertically */
+      transform: translateY(-50%); /* Adjust vertical alignment */
+     
+
+  }
+  
