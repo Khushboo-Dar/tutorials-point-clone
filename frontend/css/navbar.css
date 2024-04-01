@@ -9,6 +9,12 @@ nav{
     font-size: 14px;
 }
 
+@media (max-width: 1200px) {
+    nav{
+        padding-inline: 0;
+    }
+}
+
 .left-nav-section, .right-nav-section{
     display: flex;
     align-items: center;
@@ -22,9 +28,15 @@ nav{
     gap: 2px;
 }
 
-.icon{
-    aspect-ratio: 3/2;
-    width: 20px;
-    height: 20px;
-    color: var(--text-color);
+.social-icon{
+    padding:4px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #239327;
+}
+
+.social-icon-set{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
