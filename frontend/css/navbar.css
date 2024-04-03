@@ -36,6 +36,7 @@ nav{
     justify-content: center;
     gap: 2px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .social-icon{
@@ -92,4 +93,42 @@ nav{
 .signup-btn:hover{
     background-color: var(--background-color);
     color: var(--primary-color);
+}
+
+
+/* starting of bottom nav  */
+.bottom-nav{
+    background-color: var(--secondary-color);
+}
+
+.arrow{
+    z-index: 1;
+    padding-block: 8px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.bottom-nav-list{
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    margin-bottom: -5px;
+}
+
+.bottom-nav-list li{
+    display: inline-block;
+    padding-inline: 10px;
+    padding-block: 8px;
+    cursor: pointer;
+}
+
+.bottom-nav-list li:hover{
+    background-color: var(--primary-color);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.bottom-nav-list::-webkit-scrollbar {
+    margin-bottom: -20px;
+    display: none;
 }
