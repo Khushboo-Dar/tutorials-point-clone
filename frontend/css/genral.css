@@ -5,9 +5,9 @@
     --primary-color: #2C9D30;
     --secondary-color: #031926;
     --background-color: #FBFBFD;
-    --text-color : #FBFBFD;
+    --accent : #F4F4F4;
+    --text-color : #000000;
 }
-
 
 *{
     margin: 0;
@@ -25,3 +25,19 @@ body{
     color: var(--text-color);
 }
 
+/* add this class to html element to give a padding value on different screen widths */
+.mx-auto{
+    padding-inline: 200px;
+}
+
+@media (min-width: 1301px) and (max-width: 1500px) {
+    .mx-auto{
+        padding-inline: 100px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .mx-auto{
+        padding-inline: 20px;
+    }
+}

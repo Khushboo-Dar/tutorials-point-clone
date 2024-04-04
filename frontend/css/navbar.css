@@ -1,27 +1,14 @@
 nav{
-    padding-inline: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    color: #FBFBFD;
 }
 
 .top-nav{
     background-color: var(--primary-color);
     height: 40px;
-    width: 100vw;
-}
-
-@media (min-width: 1301px) and (max-width: 1500px) {
-    nav{
-        padding-inline: 100px;
-    }
-}
-
-@media (max-width: 1300px) {
-    nav{
-        padding-inline: 20px;
-    }
 }
 
 .left-nav-section, .right-nav-section{
@@ -37,6 +24,10 @@ nav{
     gap: 2px;
     cursor: pointer;
     white-space: nowrap;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
 }
 
 .social-icon{
@@ -88,6 +79,7 @@ nav{
     color: var(--text-color);
     font-weight: 700;
     cursor: pointer;
+    color: #FBFBFD;
 }
 
 .signup-btn:hover{
@@ -95,6 +87,14 @@ nav{
     color: var(--primary-color);
 }
 
+.right-nav-section li{
+    cursor: pointer;
+}
+
+.right-nav-section li:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
 
 /* starting of bottom nav  */
 .bottom-nav{
