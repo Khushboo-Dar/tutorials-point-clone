@@ -1,6 +1,6 @@
 export const top_compilers = [
     {
-        img : 'C.svg',
+        img : 'c.svg',
         txt : 'C'
     },
     {
@@ -8,12 +8,16 @@ export const top_compilers = [
         txt : 'C++'
     },
     {
+        img : 'csharp-new.svg',
+        txt : 'C#'
+    },
+    {
         img : 'java.svg',
         txt : 'Java'
     },
     {
-        img : 'javascript.svg',
-        txt : 'Javascript'
+        img : 'php.svg',
+        txt : 'Php'
     },
     {
         img : 'python.svg',
@@ -24,8 +28,24 @@ export const top_compilers = [
         txt : 'Ruby'
     },
     {
-        img : 'rust.svg',
-        txt : 'Rust'
+        img : 'scala.svg',
+        txt : 'Scala'
+    },
+    {
+        img : 'swift.svg',
+        txt : 'Swift'
+    },
+    {
+        img : 'html5.svg',
+        txt : 'HTML5'
+    },
+    {
+        img : 'css.svg',
+        txt : 'CSS3'
+    },
+    {
+        img : 'javascript.svg',
+        txt : 'Javascript'
     },
 ]
 
