@@ -129,6 +129,6 @@ nav{
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .bottom-nav-list::-webkit-scrollbar {
-    margin-bottom: -20px;
+    margin-bottom: -5px;
     display: none;
 }
