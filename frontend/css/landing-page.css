@@ -113,7 +113,6 @@
   height: 504.8px;
   padding: min(8vw, 2.5rem); 
   margin: 0; 
- 
 }
 .startlearn > .divofsl{
 display:flex;
@@ -277,4 +276,7 @@ background-color: transparent;
 .grid-container > div:hover{
 transform: translateY(-5px);
 transition: 0.25s ease-in;
+}
+.hidden{
+  display: none;
 }
