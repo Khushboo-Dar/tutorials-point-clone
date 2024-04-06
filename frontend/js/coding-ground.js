@@ -18,6 +18,7 @@ const create_compiler_div = (img_url, txt) => {
     compiler_div.appendChild(compiler);
 };
 
+// renders all top compilers in coding-ground.html 
 top_compilers.map((compiler) => {
     create_compiler_div(compiler.img, compiler.txt);
 });
