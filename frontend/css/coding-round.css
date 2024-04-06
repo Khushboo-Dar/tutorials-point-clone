@@ -42,3 +42,24 @@
     width: 56px;
     height: 56px;
 }
+
+/* starting css for intro section  */
+.intro{
+    padding-block: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.intro-heading{
+    font-size: 3.2rem;
+    font-weight: 500;
+    width: 32rem;
+    text-align: center;
+}
+
+.intro-sub-heading{
+    font-size: 1.1rem;
+}
+
