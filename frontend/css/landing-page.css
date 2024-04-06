@@ -1,11 +1,15 @@
 /* homesection css */
 .homesec {
+  background-image: url("/images/genral/heroBg.png");
+  background-position: left;
+  background-size: cover;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   margin: 0;
   height: 616px;
-  background-color: #031926;
+  background-color: #031926; 
   color: #ffff;
+
 }
 
 .homesec>.container {
@@ -14,8 +18,6 @@
   height: 600px;
   align-content: center;
   justify-content: center;
- background-image: url('images/genral/heroBg.png');
- background-repeat: no-repeat;
 }
 
 .homesec>.container>.imageofhome {
@@ -24,23 +26,25 @@
   width: 490px;
   display: grid;
   justify-items: end;
+  margin-left:10px;
 
 }
 
 .homesec>.container>.homecontent {
  align-content: center;
-  justify-items: center;
+  justify-content: start;
   grid-column: 1;
   height: 500px;
   width: fit-content;
   padding: 10px;
+  margin-right: 10px;
 }
 
-.homesec .container>.homecontent>.hometitle {
+.homesec >.container>.homecontent>.hometitle {
   margin-bottom:10px ;
   font-size:50px;
   overflow: hidden;
-  font-family: 'Alegreya-Sans-SC';
+  font-family: 'Roboto,sans';
 }
 
 .formsearch {
@@ -69,23 +73,35 @@
 }
 
 .form-control {
-  border: none;
-  border-radius: 5px 0 0 5px;
-  padding-right: 40px;
-  overflow: hidden;
+ 
+  flex: 1 1 auto;
+  padding: 0.5rem 1rem;
+  border:none; 
+  margin-right:0;
+ 
 }
 
-.search-icon {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  color:#239327;
-  overflow: hidden;
-}
 
 .material-symbols-outlined {
-  font-size: 1.5rem;
-  overflow: hidden;
-
+ 
+  overflow: hidden; 
+  font-family: 'Material Icons Outlined'; 
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem; 
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+.searchbutton{
+  color:#239327;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0.5rem;
+  cursor:pointer;
+  border:none;
+  margin-left:0;
 }
