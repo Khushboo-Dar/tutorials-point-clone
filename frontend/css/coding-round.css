@@ -1,4 +1,4 @@
-.top-compilers{
+.top-compilers, .technologies{
     background-color: var(--accent);
     padding-block: 30px;
     width: 100vw;
@@ -34,7 +34,7 @@
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-.compiler::-webkit-scrollbar {
+.compilers::-webkit-scrollbar {
     display: none;
 }
 
@@ -44,7 +44,7 @@
 }
 
 /* starting css for intro section  */
-.intro{
+.intro, .technologies, .learning{
     padding-block: 30px;
     display: flex;
     flex-direction: column;
@@ -63,3 +63,40 @@
     font-size: 1.1rem;
 }
 
+.search-bar{
+    width: 28rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    margin-block: 20px;
+}
+
+.search-bar input{
+    border: none;
+    width: calc(100% - 34px);
+    padding: 12px 16px;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.intro-desc, .desc{
+    width: 26rem;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+}
+
+.desc{
+    width: 42rem;
+}
+
+
+/* starting of learning section  */
+.learning{
+    background-color: black;
+    color: var(--background-color);
+}
