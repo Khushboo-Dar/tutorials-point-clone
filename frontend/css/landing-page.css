@@ -1,3 +1,6 @@
+.hidden {
+  display: none;
+}
 /* homesection css */
 .homesec {
   background-image: url("/images/genral/heroBg.png");
@@ -129,7 +132,7 @@ transform: translateX(-60px);
   font-stretch:extra-condensed;
 
 }
-.startlearn > .divofsl > .sltext1 > .text-accent-700{
+/* .startlearn > .divofsl > .sltext1 >*/ .text-accent-700{
   color:#239327;
   padding-left:5px;
 }
@@ -205,7 +208,7 @@ justify-content:center;
 }
 
 
-.grid-container {
+.startlearn >.grid-container {
   transform: translateX(-60px);
   display: grid;
   grid-template-columns: repeat(4, 289.5px); /* 4 columns of fixed width */
@@ -218,7 +221,7 @@ justify-content:center;
   background-color: #031926;
 }
 
-.grid-container > div {
+.startlearn>.grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
   display: flex;
@@ -230,28 +233,29 @@ justify-content:center;
   width: 250px;
   height:120px;
 }
-.grid-container > div:nth-of-type(1){
+
+.startlearn >.grid-container > div:nth-of-type(1){
   background-color: #f9dbbd;
 }
-.grid-container > div:nth-of-type(2){
+.startlearn >.grid-container > div:nth-of-type(2){
   background-color:#4fa9c5;
 }
-.grid-container > div:nth-of-type(3){
+.startlearn >.grid-container > div:nth-of-type(3){
   background-color:#ffede0;
 }
-.grid-container > div:nth-of-type(4){
+.startlearn >.grid-container > div:nth-of-type(4){
   background-color:#468faf;
 }
-.grid-container > div:nth-of-type(5){
+.startlearn >.grid-container > div:nth-of-type(5){
   background-color:#bfe4f5;;
 }
-.grid-container > div:nth-of-type(6){
+.startlearn >.grid-container > div:nth-of-type(6){
   background-color:#52b69a;
 }
-.grid-container > div:nth-of-type(7){
+.startlearn >.grid-container > div:nth-of-type(7){
   background-color:#ffb3c6;
 }
-.grid-container > div:nth-of-type(8){
+.startlearn >.grid-container > div:nth-of-type(8){
   background-color:#78c6a3;
 }
 .learn-button{
@@ -262,7 +266,7 @@ justify-content:center;
 background-color: transparent;
 }
 .learn-button a {
-  font-size: 15px; /* Increase size of "Start learning" text */
+  font-size: 15px; 
   text-decoration: none;
   color:black;
 
@@ -273,10 +277,109 @@ background-color: transparent;
   text-decoration: none;
   color:black;
 }
-.grid-container > div:hover{
+.startlearn >.grid-container > div:hover{
 transform: translateY(-5px);
 transition: 0.25s ease-in;
 }
-.hidden{
-  display: none;
+
+/* Starting of 'Build career with us section' */
+.buildcareer{
+  width: 100vw; 
+  height: 1043.2px;
+  padding: min(8vw, 2.5rem); 
+  margin: 0;
+  /* background-color: #ffb3c6; */
 }
+.buildcareer > .topofbc{
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  width:1000px;
+  height: 56px;
+  padding: 20px;
+  /* background-color: aqua; */
+  margin:20px 10px 30px 10px;
+  overflow: hidden;  
+  transform: translateX(-133px);
+}
+.buildcareer .topofbc> .textofbc{
+  font-size:50px;
+  font-weight:bold;
+  font-family:"Nunito",sans-serif;
+  font-stretch:extra-condensed;
+}
+
+ .buildcareer >.grid-container2 {
+  transform:translateX(-155px); 
+  display: grid;
+  grid-template-columns: repeat(2, 690.5px);
+  gap:10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  height:811.2px;
+  width:1413px;
+}
+.buildcareer > .grid-container2 > .mydiv{
+  /* background-color: #239327; */
+  width:690.5px;
+  height:389.6px;
+  border-radius:20px;
+  position:relative;
+}
+.buildcareer > .grid-container2 > .mydiv >.div0 {
+  width:600px;
+  height:300px;
+  border-radius:20px;
+  position: absolute;
+  opacity: 1;
+  background-color:black;
+}
+.buildcareer > .grid-container2 > .mydiv >.div1{
+  border: 1.5px solid black;
+  text-align: center;
+  font-size: 30px;
+  width:600px;
+  height:300px;
+  border-radius:20px;
+  position: absolute;
+  opacity: 1;
+  background-color:#edf6f9;
+}
+.sec-ofdiv1-ofbc{
+  transform: translateY(20px);
+  width:500px;
+  height: 250px;
+  margin: 0; 
+  /* background-color: blue; */
+}
+.sec-ofdiv1-ofbc > .top-sec-ofdiv1-ofbc{
+  width:500px;
+  height:50px;
+}
+.sec-ofdiv1-ofbc > .top-sec-ofdiv1-ofbc > .textof-top-sec-ofdiv1-ofbc{
+  font-size:30px;
+  font-family:"Nunito",sans-serif;
+  font-stretch:extra-condensed;
+  font-weight: 600;
+}
+
+/* .buildcareer > .grid-container2 > .mydiv > .div1> .bc-contain{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color:pink;
+  padding: 10px;
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .bc-contain div{
+  background-color:blueviolet;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  width: 100px;
+  height: 60px;
+}  */
+
+
