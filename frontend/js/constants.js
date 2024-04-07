@@ -49,3 +49,12 @@ export const top_compilers = [
     },
 ]
 
+
+export const tabList = [
+    "Top programming Languages",
+    "Data Science Technologies",
+    "Online Terminals",
+    "Web Development technologies",
+    "Document Editors",
+    "Online Compilers and Interpretors"
+]
