@@ -102,7 +102,6 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-block: 20px;
 }
 
 .tab{
@@ -119,5 +118,9 @@
 }
 
 .tab:hover{
+    background-color: var(--primary-color);
+}
+
+.active-tab{
     background-color: var(--primary-color);
 }
