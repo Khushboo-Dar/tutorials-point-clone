@@ -5,8 +5,8 @@
 }
 
 .heading{
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 58px;
+    font-weight: 500;
 }
 
 .compilers{
@@ -20,20 +20,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 15px;
     background: linear-gradient(45deg , #000000, #3A3C3B);
     padding: 10px 30px;
     border-radius: 8px;
     color: #FBFBFD;
     cursor: pointer;
-    min-width: 116px;
-    min-height: 116px;
+    min-width: 136px;
+    min-height: 128px;
 }
 
 
 .compiler-img{
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
 }
 
 /* starting css for intro section  */
@@ -46,30 +47,30 @@
 }
 
 .intro-heading{
-    font-size: 3.2rem;
+    font-size: 4.2rem;
     font-weight: 500;
-    width: 32rem;
+    width: 36rem;
     text-align: center;
     align-self: center;
 }
 
 .intro-sub-heading{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .search-bar{
-    width: 28rem;
+    width: 36rem;
     border: 1px solid var(--primary-color);
     border-radius: 2rem;
     display: flex;
     align-items: center;
-    margin-block: 20px;
+    margin-block: 16px;
 }
 
 .search-bar input{
     border: none;
-    width: calc(100% - 34px);
-    padding: 12px 16px;
+    width: calc(100% - 42px);
+    padding: 16px 20px;
     border-radius: 2rem;
     font-size: 0.8rem;
 }
@@ -79,13 +80,14 @@
 }
 
 .intro-desc, .desc{
-    width: 26rem;
-    font-size: 0.85rem;
-    line-height: 1.4rem;
+    width: 32rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
 }
 
 .desc{
-    width: 42rem;
+    width: 52rem;
+    font-size: 1.1rem;
 }
 
 /* starting of learning section  */
@@ -130,5 +132,28 @@
     display: none;
     flex-wrap: wrap;
     gap: 1.6rem;
-    padding: 30px 20px;
+    padding: 30px 0px;
+}
+
+.tab-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.tabLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg , #000000, #3A3C3B);
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.tab-compiler-img{
+    width: 85px;
+    height: 85px;
 }

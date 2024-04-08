@@ -29,7 +29,7 @@ const populateTab = (tabName, data) => {
     const tabContent = document.getElementById(tabName)
     tabContent.innerHTML = ''
     data.map((item) => {
-        create_compiler_div(item.url, item.txt, tabContent)
+        create_tab_box(item.url, item.txt, tabContent) //function defined in index.js
     })
 }
 
