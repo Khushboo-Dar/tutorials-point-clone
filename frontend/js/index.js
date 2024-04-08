@@ -1,17 +1,21 @@
-const create_compiler_div = (img_url, txt, box) => {
+const create_tab_box = (img_url, txt, box) => {
+    const tab = document.createElement('div')
     const compiler = document.createElement('div');
     const compiler_img = document.createElement('img');
     const compiler_txt = document.createElement('p');
 
-    compiler.className = 'compiler';
+    tab.className = 'tab-box'
+    compiler.className = 'tabLink';
+    compiler_img.className = "tab-compiler-img"
+
     compiler_img.setAttribute('src', `./images/logos/${img_url}`);
-    compiler_img.className = "compiler-img"
     compiler_txt.innerHTML = txt;
 
     compiler.appendChild(compiler_img);
-    compiler.appendChild(compiler_txt);
+    tab.appendChild(compiler)
+    tab.append(compiler_txt)
 
-    box.appendChild(compiler);
+    box.appendChild(tab);
 };
 
 function openTab(elemnt, tabName){

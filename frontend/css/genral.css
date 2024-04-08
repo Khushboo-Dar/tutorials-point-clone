@@ -30,19 +30,22 @@ body{
     padding-inline: 250px;
 }
 
-.mx-250{
+.mx-350{
     padding-inline: 350px;
 }
 
 
 @media (min-width: 1301px) and (max-width: 1500px) {
-    .mx-auto, .mx-250{
+    .mx-auto{
         padding-inline: 100px;
+    }
+    .mx-350{
+        padding-inline: 150px;
     }
 }
 
 @media (max-width: 1300px) {
-    .mx-auto, .mx-250{
+    .mx-auto, .mx-350{
         padding-inline: 20px;
     }
 }
