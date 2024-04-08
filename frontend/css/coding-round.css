@@ -124,3 +124,11 @@
 .active-tab{
     background-color: var(--primary-color);
 }
+
+/* tabcontent styling */
+.tabcontent{
+    display: none;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    padding: 30px 20px;
+}

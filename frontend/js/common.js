@@ -25,3 +25,5 @@ export const scroll_div = (slider) => {
         slider.scrollLeft = scrollLeft - walk;
     });
 }
+
+

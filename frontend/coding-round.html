@@ -138,18 +138,40 @@
             </div>
         </div>
 
-        <div class="mx-auto learning">
+        <div class="mx-250 learning">
             <p class="intro-heading">Start Learning</p>
             <div id="tab-list" class="tabs">
-                <div class="tab active-tab">Top programming Languages</div>
-                <div class="tab">Data Science Technologies</div>
-                <div class="tab">Online Terminals</div>
-                <div class="tab">Web Development technologies</div>
-                <div class="tab">Document Editors</div>
+                <div class="tab active-tab" onclick="openTab(this, 'top-programming-langs')">Top programming Languages</div>
+                <div id="def" class="tab" onclick="openTab(this, 'DataScience')">Data Science Technologies</div>
+                <div class="tab" onclick="openTab(this, 'onlineTerminals')">Online Terminals</div>
+                <div class="tab" onclick="openTab(this, 'WebTechnologies')">Web Development technologies</div>
+                <div class="tab" onclick="openTab(this, 'docEditors')">Document Editors</div>
                 <div class="tab">Online Compilers & Interpretors</div>
+            </div>
+
+
+            <div id="top-programming-langs" class="tabcontent">
+                <!-- Content will be dynamically generated here -->
+            </div>
+        
+            <div id="DataScience" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
+            </div>
+
+            <div id="onlineTerminals" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
+            </div>
+        
+            <div id="WebTechnologies" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
+            </div>
+
+            <div id="docEditors" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
             </div>
         </div>
     </main>
+    <script src="./js/index.js"></script>
     <script type="module" src="./js/coding-ground.js"></script>
 </body>
 </html>
