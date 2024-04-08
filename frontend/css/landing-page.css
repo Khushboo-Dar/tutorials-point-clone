@@ -209,7 +209,6 @@ justify-content:center;
   display: grid;
   grid-template-columns: repeat(4, 289.5px); /* 4 columns of fixed width */
   gap: 20px;
-  background-color: #2196F3;
   padding:30px 40px 30px 40px;
   width:1219.2px;
   box-sizing: content-box;
@@ -218,7 +217,6 @@ justify-content:center;
 }
 
 .startlearn>.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
   border: none;
   display: flex;
   align-items: center;
@@ -269,11 +267,10 @@ background-color: transparent;
   font-size: 15px; 
   text-decoration: none;
   color:black;
-
 }
 
 .learn-button #langbutton {
-  font-size: 25px; /* Increase size of "HTML" text */
+  font-size: 25px; /* Increase size of 2nd text */
   text-decoration: none;
   color:black;
 }
@@ -288,7 +285,6 @@ transition: 0.25s ease-in;
   height: 1043.2px;
   padding: min(8vw, 2.5rem); 
   margin: 0;
-  /* background-color: #ffb3c6; */
 }
 .buildcareer > .topofbc{
   display: flex;
@@ -297,8 +293,7 @@ transition: 0.25s ease-in;
   width:1000px;
   height: 56px;
   padding: 20px;
-  /* background-color: aqua; */
-  margin:20px 10px 30px 10px;
+  margin:20px 10px 10px 10px;
   overflow: hidden;  
   transform: translateX(-133px);
 }
@@ -308,19 +303,16 @@ transition: 0.25s ease-in;
   font-family:"Nunito",sans-serif;
   font-stretch:extra-condensed;
 }
-
  .buildcareer >.grid-container2 {
   transform:translateX(-155px); 
   display: grid;
   grid-template-columns: repeat(2, 690.5px);
   gap:10px;
-  /* background-color: #2196F3; */
   padding: 10px;
   height:811.2px;
   width:1413px;
 }
 .buildcareer > .grid-container2 > .mydiv{
-  /* background-color: #239327; */
   width:690.5px;
   height:389.6px;
   border-radius:20px;
@@ -345,13 +337,12 @@ transition: 0.25s ease-in;
   opacity: 1;
   background-color:#edf6f9;
 }
-.sec-ofdiv1-ofbc{
-  transform: translateY(20px);
-  width:500px;
-  height: 250px;
-  margin: 0; 
-  /* background-color: blue; */
-}
+  .sec-ofdiv1-ofbc {
+    transform: translateY(25px) translateX(45px);
+    width: 500px;
+    height: 250px;
+    margin: 0;
+  }
 .sec-ofdiv1-ofbc > .top-sec-ofdiv1-ofbc{
   width:500px;
   height:50px;
@@ -361,25 +352,82 @@ transition: 0.25s ease-in;
   font-family:"Nunito",sans-serif;
   font-stretch:extra-condensed;
   font-weight: 600;
+  text-align: left;
 }
-
-/* .buildcareer > .grid-container2 > .mydiv > .div1> .bc-contain{
+.sec-ofdiv1-ofbc > .build_career-contain{
+  transform: translateX(0.5px);
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  background-color:pink;
-  padding: 10px;
-}
-.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .bc-contain div{
+  grid-template-columns: repeat(3, 150.5px);
+  gap: 20px;
+  padding:20px;
+  width:600px;
+  box-sizing: content-box;
+  border-radius:7px;
+} 
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div{
   background-color:blueviolet;
   border: none;
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
   text-align: center;
-  font-size: 30px;
-  width: 100px;
-  height: 60px;
-}  */
-
-
+  width: 130px;
+  height: 70px;
+}  
+.learn-button2{
+  height:60px;
+  border:none;
+  text-align: center;
+background-color: transparent;
+}
+.learn-button2 a {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:15px; 
+  text-decoration: none;
+  color:black;
+}
+.learn-button2 #langbutton {
+  font-size: 17px;
+  text-decoration: none;
+  color:black;
+  font-weight:530;
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(1)
+{
+  background-color: #bfe4f5;
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(2)
+{
+  background-color:#f9dbbd;
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(3)
+{
+  background-color:#78c6a3;
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(4)
+{
+  background-color:#cce3de;
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(5)
+{
+  background-color:#efd3d7;
+ 
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(6)
+{
+  background-color:#ffd7ba;
+}
+.grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:hover{
+  transform: translateY(-5px);
+  transition: 0.25s ease-in;
+  }
+  .grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(6):hover{
+    background-color: #031926;
+  }
+  .grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(6):hover .learn-button2 a{
+    color:white;
+  }
+  .grid-container2 > .mydiv > .div1 > .sec-ofdiv1-ofbc > .build_career-contain div:nth-of-type(6):hover .learn-button2 #langbutton{
+    color:white;
+  }
