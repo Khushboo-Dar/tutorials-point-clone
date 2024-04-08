@@ -1,4 +1,4 @@
-import { top_compilers, top_programming_languages, Data_science, web_technologies, document_editors, online_terminals } from "./constants.js";
+import { top_compilers, top_programming_languages, Data_science, web_technologies, document_editors, online_terminals, interpreters } from "./constants.js";
 import { scroll_div } from "./common.js";
 
 const compiler_div = document.getElementById('top-compilers');
@@ -51,6 +51,7 @@ populateTab('DataScience', Data_science)
 populateTab('onlineTerminals', online_terminals)
 populateTab('WebTechnologies', web_technologies)
 populateTab('docEditors', document_editors)
+populateTab('interpreters', interpreters)
 
 
 function Click(){

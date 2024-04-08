@@ -131,7 +131,7 @@
 .tabcontent{
     display: none;
     flex-wrap: wrap;
-    gap: 1.6rem;
+    gap: 4rem;
     padding: 30px 0px;
 }
 
@@ -157,3 +157,36 @@
     width: 85px;
     height: 85px;
 }
+
+
+.grid-layout{
+    width: calc(100% - 10rem);
+    display: grid;
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 1.25rem;
+    padding: 1.25rem;
+
+    grid-auto-flow: dense;
+}
+
+.box-1x2{
+    grid-row-end: span 1;
+    grid-column-end: span 2;
+    background-color: aquamarine;
+}
+
+.box-1x1{
+    grid-row-end: span 1;
+    grid-column-end: span 1;
+    background-color: blanchedalmond;
+}
+
+.box-2x1{
+    grid-row-end: span 2;
+    grid-column-end: span 1;
+    background-color: aquamarine;
+}
+
