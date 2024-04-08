@@ -118,7 +118,60 @@
             <!-- all the top-compilers will be loaded using Javascript -->
             <div id="top-compilers" class="compilers"></div>
         </div>
+
+        <div class="mx-auto intro">
+            <p class="intro-heading">CODING GROUND FOR DEVELOPERS</p>
+            <p class="intro-sub-heading"> Hello! What do you want to execute?</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Compilers, Terminals and Interpreters">
+                <img src="./images/genral/search.svg" alt="">
+            </div>
+            <h2>Code, Edit, Run and Share</h2>
+            <p class="intro-desc">Write error-free code with sophisticated editors. Whether you wish to beautify your code or want to practice what you learn, the Coding Ground is your go-to.</p>
+        </div>
+
+        <div class="mx-auto technologies">
+            <p class="intro-heading">Our Technologies</p>
+            <p class="desc">Explore our wide range of editors, terminals, compilers, and interpreters that support almost all technologies with absolutely no strings! </p>
+            <div class="grid-layout">
+
+            </div>
+        </div>
+
+        <div class="mx-250 learning">
+            <p class="intro-heading">Start Learning</p>
+            <div id="tab-list" class="tabs">
+                <div class="tab active-tab" onclick="openTab(this, 'top-programming-langs')">Top programming Languages</div>
+                <div id="def" class="tab" onclick="openTab(this, 'DataScience')">Data Science Technologies</div>
+                <div class="tab" onclick="openTab(this, 'onlineTerminals')">Online Terminals</div>
+                <div class="tab" onclick="openTab(this, 'WebTechnologies')">Web Development technologies</div>
+                <div class="tab" onclick="openTab(this, 'docEditors')">Document Editors</div>
+                <div class="tab">Online Compilers & Interpretors</div>
+            </div>
+
+
+            <div id="top-programming-langs" class="tabcontent">
+                <!-- Content will be dynamically generated here -->
+            </div>
+        
+            <div id="DataScience" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
+            </div>
+
+            <div id="onlineTerminals" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
+            </div>
+        
+            <div id="WebTechnologies" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
+            </div>
+
+            <div id="docEditors" class="tabcontent">
+            <!-- Content will be dynamically generated here -->
+            </div>
+        </div>
     </main>
+    <script src="./js/index.js"></script>
     <script type="module" src="./js/coding-ground.js"></script>
 </body>
 </html>

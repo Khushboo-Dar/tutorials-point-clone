@@ -5,7 +5,7 @@
     --primary-color: #2C9D30;
     --secondary-color: #031926;
     --background-color: #FBFBFD;
-    --accent : #F4F4F4;
+    --accent : #f1f0f0;
     --text-color : #000000;
 }
 
@@ -27,17 +27,22 @@ body{
 
 /* add this class to html element to give a padding value on different screen widths */
 .mx-auto{
-    padding-inline: 200px;
+    padding-inline: 250px;
 }
 
+.mx-250{
+    padding-inline: 350px;
+}
+
+
 @media (min-width: 1301px) and (max-width: 1500px) {
-    .mx-auto{
+    .mx-auto, .mx-250{
         padding-inline: 100px;
     }
 }
 
 @media (max-width: 1300px) {
-    .mx-auto{
+    .mx-auto, .mx-250{
         padding-inline: 20px;
     }
 }
