@@ -53,7 +53,3 @@ populateTab('WebTechnologies', web_technologies)
 populateTab('docEditors', document_editors)
 populateTab('interpreters', interpreters)
 
-
-function Click(){
-    console.log("hello")
-}
