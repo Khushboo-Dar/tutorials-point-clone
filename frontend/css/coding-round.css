@@ -157,3 +157,45 @@
     width: 85px;
     height: 85px;
 }
+
+/* reviews section  */
+.reviews{
+    display: flex;
+    align-items: center;
+    padding-block: 3rem;
+    flex-direction: column;
+}
+
+.reviews-heading{
+    font-size: 4.2rem;
+    font-weight: 500;
+}
+
+.reviews-box{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 6rem;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #3A3C3B;
+    padding-block: 2rem;
+    padding-inline: 2.4rem;
+    color: #FBFBFD;
+    max-width: 18rem;
+    min-height: 20rem;
+}
+
+.review-img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.review-heading{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
