@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Ground</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/coding-round.css">
     <link rel="stylesheet" href="./css/genral.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/coding-ground-grid.css">
 </head>
 <body>
     <header>
@@ -133,26 +135,51 @@
         <div class="mx-350 technologies">
             <p class="intro-heading">Our Technologies</p>
             <p class="desc">Explore our wide range of editors, terminals, compilers, and interpreters that support almost all technologies with absolutely no strings! </p>
-            <div class="grid-layout">
-                <div class="box-1x1">
-                    <img src="./images/data-science.svg" alt="">
+            <div class="grid-container">
+                <div class="box box1">
+                    <p>Data Science Technologies</p>
+                    <div class="mini-box">
+                        <img src="./images/conding-ground/arrow-green.svg" alt="">
+                        <img src="./images/conding-ground/data-science.svg" alt="">
+                    </div>
                 </div>
-                <div class="box-1x2">
-                    <img src="./images/edit-desktop.svg" alt="">
+                <div class="box box2">
+                    <div class="inner-box2">
+                        <img class="box2-img" src="./images/conding-ground/top-programming.svg" alt="">
+                        <div class="mini-box2">
+                            <p class="desc-box2">Top Programming Languages</p>
+                            <img src="./images/conding-ground/arrow-green.svg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="box-2x1">
-                    <img src="./images/laptop-desktop.svg" alt="">
+                <div class="box box3">
+                    <p>Online Terminals</p>
+                    <div class="mini-box">
+                        <img src="./images/conding-ground/terminals-desktop.svg" alt="">
+                        <img src="./images/conding-ground/arrow-black.svg" alt="">
+                    </div>
                 </div>
-                <div class="box-1x1">
-                    <img src="./images/terminals-desktop.svg" alt="">
+                <div class="box box4">
+                    <p>Document Editors</p>
+                    <div class="mini-box">
+                        <img src="./images/conding-ground/edit-desktop.svg" alt="">
+                        <img src="./images/conding-ground/arrow-black.svg" alt="">
+                    </div>
                 </div>
-                <div class="box-2x1">
-                    <img src="./images/top-programming-languages-desktop.svg" alt="">
+                <div class="box box5">
+                    <p>Web Development Technologies</p>
+                    <div class="mini-box">
+                        <img class="laptop-img" src="./images/conding-ground/laptop-desktop.svg" alt="">
+                        <img src="./images/conding-ground/arrow-green.svg" alt="">
+                    </div>
                 </div>
-                <div class="box-1x1">
-                    6
+                <div class="box box6">
+                    <p>Online Compilers & Interpretors</p>
+                    <div class="mini-box6">
+                        <img src="./images/conding-ground/arrow-green.svg" alt="">
+                    </div>
                 </div>
-            </div>
+            </div>                  
         </div>
 
         <div class="mx-350 learning">
@@ -165,31 +192,12 @@
                 <div class="tab" onclick="openTab(this, 'docEditors')">Document Editors</div>
                 <div class="tab" onclick="openTab(this, 'interpreters')">Online Compilers & Interpretors</div>
             </div>
-
-
-            <div id="top-programming-langs" class="tabcontent">
-                <!-- Content will be dynamically generated here -->
-            </div>
-        
-            <div id="DataScience" class="tabcontent">
-            <!-- Content will be dynamically generated here -->
-            </div>
-
-            <div id="onlineTerminals" class="tabcontent">
-            <!-- Content will be dynamically generated here -->
-            </div>
-        
-            <div id="WebTechnologies" class="tabcontent">
-            <!-- Content will be dynamically generated here -->
-            </div>
-
-            <div id="docEditors" class="tabcontent">
-            <!-- Content will be dynamically generated here -->
-            </div>
-
-            <div id="interpreters" class="tabcontent">
-            <!-- Content will be dynamically generated here -->
-            </div>
+            <div id="top-programming-langs" class="tabcontent"><!-- Content will be dynamically generated here --></div>            
+            <div id="DataScience" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="onlineTerminals" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="WebTechnologies" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="docEditors" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="interpreters" class="tabcontent"><!-- Content will be dynamically generated here --></div>
         </div>
     </main>
     <script src="./js/index.js"></script>
