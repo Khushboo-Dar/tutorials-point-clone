@@ -65,6 +65,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 4px;
+    transition: color 0.25s ease-in;
 }
 
 .middle-nav-item div:hover{
