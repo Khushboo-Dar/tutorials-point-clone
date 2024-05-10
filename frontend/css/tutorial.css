@@ -1,0 +1,99 @@
+nav{
+    padding-inline: 4rem;
+}
+
+main{
+    width: 100vw;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding-inline: 4rem;
+    padding-block: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.left-section{
+    background-color: var(--background-color);
+    width: 24rem;
+    border-radius: 1rem;
+}
+
+.tut-img{
+    width: 100%;
+}
+
+.block-heading{
+    background-color: var(--primary-color);
+    padding-inline: 1rem;
+    padding-block: 1.5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.cont-block{
+    padding: 0.8rem;
+    border-bottom: 1px solid #d8d5d5;
+}
+
+.info{
+    padding-inline: 1.2rem;
+    padding-block: 0.6rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.info:hover{
+    background-color: #26c41821;
+}
+
+/* starting right section  */
+.right-section{
+    background-color: var(--background-color);
+    width: 60rem;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    border-radius: 1rem;
+}
+
+.tut-main-img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.tut-contents{
+    padding-block: 1rem;
+}
+
+.contents-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contents-head h1{
+    width: 100%;
+}
+
+.contents-head img{
+    cursor: pointer;
+}
+
+.contents-list{
+    margin-top: 3rem;
+    border-radius: 1rem;
+    border: 1px solid #d8d5d5;
+}
+
+.list-head{
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-block: 1rem;
+    padding-inline: 1.4rem;
+}
+
+.list-contents{
+    padding-inline: 2rem;
+}
