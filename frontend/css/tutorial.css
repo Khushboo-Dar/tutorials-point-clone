@@ -97,3 +97,28 @@ main{
 .list-contents{
     padding-inline: 2rem;
 }
+
+.theory .Paragraph{
+    padding-top: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.green{
+    color: var(--primary-color);
+}
+
+.theory-head{
+    padding-top: 1.4rem;
+    font-size: 2rem;
+}
+
+.theory-list{
+    background-color: #FCDBC4;
+    margin-block: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
