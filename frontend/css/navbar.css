@@ -2,19 +2,19 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 14px;
+    font-size: 1rem;
     color: #FBFBFD;
 }
 
 .top-nav{
     background-color: var(--primary-color);
-    height: 40px;
+    height: 48px;
 }
 
 .left-nav-section, .right-nav-section{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .nav-item{
@@ -48,12 +48,12 @@ nav{
 /* starting of middle navbar  */
 
 .middle-nav{
-    padding-block: 10px;
+    padding-block: 16px;
     color: rgb(31, 29, 29);
 }
 
 .nav-logo{
-    height: 35px;
+    height: 42px;
     margin-right: 20px;
 }
 
@@ -65,6 +65,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 4px;
+    transition: color 0.25s ease-in;
 }
 
 .middle-nav-item div:hover{
@@ -119,7 +120,7 @@ nav{
 .bottom-nav-list li{
     display: inline-block;
     padding-inline: 10px;
-    padding-block: 8px;
+    padding-block: 12px;
     cursor: pointer;
 }
 

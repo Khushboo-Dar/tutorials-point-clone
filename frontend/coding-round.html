@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Ground</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/coding-round.css">
     <link rel="stylesheet" href="./css/genral.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/coding-ground-grid.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header>
@@ -118,7 +121,289 @@
             <!-- all the top-compilers will be loaded using Javascript -->
             <div id="top-compilers" class="compilers"></div>
         </div>
+
+        <div class="mx-auto intro">
+            <p class="intro-heading">CODING GROUND FOR DEVELOPERS</p>
+            <p class="intro-sub-heading"> Hello! What do you want to execute?</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Compilers, Terminals and Interpreters">
+                <img src="./images/genral/search.svg" alt="">
+            </div>
+            <h1>Code, Edit, Run and Share</h1>
+            <p class="intro-desc">Write error-free code with sophisticated editors. Whether you wish to beautify your code or want to practice what you learn, the Coding Ground is your go-to.</p>
+        </div>
+
+        <div class="mx-350 technologies">
+            <p class="intro-heading">Our Technologies</p>
+            <p class="desc">Explore our wide range of editors, terminals, compilers, and interpreters that support almost all technologies with absolutely no strings! </p>
+            <div class="grid-container">
+                <div class="box box1">
+                    <p>Data Science Technologies</p>
+                    <div class="mini-box">
+                        <img src="./images/conding-ground/arrow-green.svg" alt="">
+                        <img src="./images/conding-ground/data-science.svg" alt="">
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="inner-box2">
+                        <img class="box2-img" src="./images/conding-ground/top-programming.svg" alt="">
+                        <div class="mini-box2">
+                            <p class="desc-box2">Top Programming Languages</p>
+                            <img src="./images/conding-ground/arrow-green.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <p>Online Terminals</p>
+                    <div class="mini-box">
+                        <img src="./images/conding-ground/terminals-desktop.svg" alt="">
+                        <img src="./images/conding-ground/arrow-black.svg" alt="">
+                    </div>
+                </div>
+                <div class="box box4">
+                    <p>Document Editors</p>
+                    <div class="mini-box">
+                        <img src="./images/conding-ground/edit-desktop.svg" alt="">
+                        <img src="./images/conding-ground/arrow-black.svg" alt="">
+                    </div>
+                </div>
+                <div class="box box5">
+                    <p>Web Development Technologies</p>
+                    <div class="mini-box">
+                        <img class="laptop-img" src="./images/conding-ground/laptop-desktop.svg" alt="">
+                        <img src="./images/conding-ground/arrow-green.svg" alt="">
+                    </div>
+                </div>
+                <div class="box box6">
+                    <p>Online Compilers & Interpretors</p>
+                    <div class="mini-box6">
+                        <img src="./images/conding-ground/arrow-green.svg" alt="">
+                    </div>
+                </div>
+            </div>                  
+        </div>
+
+        <div class="mx-350 learning">
+            <p class="intro-heading">Start Learning</p>
+            <div id="tab-list" class="tabs">
+                <div class="tab active-tab" onclick="openTab(this, 'top-programming-langs')">Top programming Languages</div>
+                <div id="def" class="tab" onclick="openTab(this, 'DataScience')">Data Science Technologies</div>
+                <div class="tab" onclick="openTab(this, 'onlineTerminals')">Online Terminals</div>
+                <div class="tab" onclick="openTab(this, 'WebTechnologies')">Web Development technologies</div>
+                <div class="tab" onclick="openTab(this, 'docEditors')">Document Editors</div>
+                <div class="tab" onclick="openTab(this, 'interpreters')">Online Compilers & Interpretors</div>
+            </div>
+            <div id="top-programming-langs" class="tabcontent"><!-- Content will be dynamically generated here --></div>            
+            <div id="DataScience" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="onlineTerminals" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="WebTechnologies" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="docEditors" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+            <div id="interpreters" class="tabcontent"><!-- Content will be dynamically generated here --></div>
+        </div>
+
+        <div class="reviews">
+            <p class="reviews-heading">The Best Of Tutorials Point</p>
+            <div class="mx-auto reviews-box">
+                <div class="review">
+                    <img class="review-img" src="./images/conding-ground/library.svg" alt="">
+                    <p class="review-heading">Library</p>
+                    <p>Make the most of our free vast library of text tutorials curated by industry veterans for your wealth of knowledge</p>
+                </div>
+                <div class="review">
+                    <img class="review-img" src="./images/conding-ground/tutorials.svg" alt="">
+                    <p class="review-heading">Technical Question and Answer</p>
+                    <p>Stay informed about the latest trends and best practices of all technologies in one place</p>
+                </div>
+                <div class="review">
+                    <img class="review-img" src="./images/conding-ground/premium-courses.svg" alt="">
+                    <p class="review-heading">Premium Courses & Certifications</p>
+                    <p>Explore our thoughtfully collected courses and expert-curated certifications to grow professionally and personally</p>
+                </div>
+                <div class="review">
+                    <img class="review-img" src="./images/conding-ground/expert-tutors.svg" alt="">
+                    <p class="review-heading">Expert Tutors</p>
+                    <p>Learn from top-rated global instructors that bring industry expertise for your digital training</p>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer class="mx-auto">
+        <div class="left-footer">
+            <img class="footer-logo" src="./images/footer/logo-footer.svg" alt="">
+            <p class="footer-desc">Tutorials Point is a leading Ed Tech company striving to provide the best learning material on technical and non-technical subjects.</p>
+            <h2>About Us</h2>
+            <div class="left-footer-box">
+                <ul class="list-box">
+                    <li><a class="list-link" href="#"><span class="space">></span>Company</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>Our Team</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>Careers</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>Jobs</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>Contact Us</a></li>
+                </ul>
+                <ul class="list-box">
+                    <li><a class="list-link" href="#"><span class="space">></span>Terms od use</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>Privacy Policy</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>Refund Policy</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>Cookies Policy</a></li>
+                    <li><a class="list-link" href="#"><span class="space">></span>FAAQ`s</a></li>
+                </ul>
+            </div>
+            <div class="floc">
+                <img src="./images/footer/location.svg" alt="">
+                <p class="footer-desc">Tutorials Point India Private Limited, Incor9 Building, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081, INDIA </p>
+            </div>
+            <div class="footer-icons">
+                <div class="f-social-icon"><img class="fs-icon" src="./images/footer/fb-icon.svg" alt=""></div>
+                <div class="f-social-icon"><img class="fs-icon" src="./images/footer/ig-icon.svg" alt=""></div>
+                <div class="f-social-icon"><img class="fs-icon" src="./images/footer/x-icon.svg" alt=""></div>
+                <div class="f-social-icon"><img class="fs-icon" src="./images/footer/yt-icon.svg" alt=""></div>
+                <div class="f-social-icon"><img class="fs-icon" src="./images/footer/linkedin-icon.svg" alt=""></div>
+            </div>
+            <div class="footer-icons">
+                <img class="f-icon" src="./images/footer/googleplay.svg" alt="">
+                <img class="f-icon" src="./images/footer/appstore.svg" alt="">
+            </div>
+        </div>
+        <div class="right-footer">
+            <div class="top-right-footer">
+                <p>TUTORIALS</p>
+                <p>ARTICLES</p>
+                <p>JOBS</p>
+                <p>COURSES</p>
+                <p>CERTIFICATIONS</p>
+                <p>ANNUAL MEMBERSHIP</p>
+            </div>
+            <div class="right-lists">
+                <div class="list">
+                    <p class="list-h">Languages</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>Python Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Java Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>C++ Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>C Programming Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>C# Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>PHP Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>R Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Go Tutorial</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Web Technologies</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>HTML Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>CSS Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>JavaScript Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Reactjs Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Bootstrap Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Angularjs Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Node.js Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>TypeScript Tutorial</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Database</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>SQL Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>MYSQL Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>DBMS Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>MongoDB Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>SQLite Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>PL/SQL Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>PostgreSQL Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Excel Tutorial</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Editors</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>Online SQL Editor</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online HTML Editor</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Css Editor</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Javascript Editor</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Onlne Latex Editor</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online TEX Editor</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online MathML Compiler</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Markdown Editor</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Trending Technologies</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>Cloud Computing Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>AWS Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Microsoft Azure Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>git Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Ethical Hacking Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Docker Tutorial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Kubernetes Tutorial</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Compilers</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>online Java Compiler</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online C Compiler</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online C++ Compiler</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online C# Compiler</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online PHP Compiler</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Matlab Compiler</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Bash Compiler</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Terminals</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Unix Terminal</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Python3 Terminal</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online PHP Terminal</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Nodejs Terminal</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online R Terminal</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Numpy Terminal</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Online Octave Terminal</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Cata Science & ML</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>NLP Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Numpy Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Python Pandas Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>ML Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Big Data Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Cryptography Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Power BI Tuturial</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Computer Science</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>DSA Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Spring Boot Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>SDLC Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Unix Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Operating Systems Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Assembly Programming Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Digital Circuits Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Microprocessor Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>System Analysis and Design Tuturial</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Flutter Tuturial</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <p class="list-h">Top Certifications</p>
+                    <ul class="list-box">
+                        <li><a class="list-link" href="#"><span class="space">></span>Business Analysis Certification</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Game Development Certification</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Data Science Advanced Certification</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Advanced Devops Certification</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Artificial Intelligence and Machine learning Certification</a></li>
+                        <li><a class="list-link" href="#"><span class="space">></span>Devops Certification</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <script src="./js/index.js"></script>
     <script type="module" src="./js/coding-ground.js"></script>
 </body>
 </html>

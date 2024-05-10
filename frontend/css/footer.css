@@ -1,0 +1,116 @@
+footer{
+    background-color: var(--secondary-color);
+    display: flex;
+    padding-block: 50px;
+    color: var(--background-color);
+    gap: 4rem;
+}
+
+.footer-logo{
+    width: 20rem;
+}
+
+.left-footer, .right-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.left-footer{
+    width: 22rem;
+}
+
+.right-footer{
+    width: 60rem;
+}
+
+.footer-desc{
+    max-width: 20rem;
+    font-size: 0.9rem;
+}
+
+.left-footer-box{
+    display: flex;
+    gap: 2rem;
+}
+
+.space{
+    margin-right: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.list-box li{
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.25s ease-in;
+}
+
+.list-box li:hover{
+    color: var(--primary-color);
+}
+
+.floc{
+    display: flex;
+    gap: 0.6rem;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 1.4rem;
+}
+
+.f-social-icon{
+    background-color: rgba(240, 248, 255, 0.117);
+    border-radius: 2rem;
+    padding:4px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.fs-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.f-icon{
+    cursor: pointer;
+}
+
+.top-right-footer{
+    display: flex;
+    gap: 3rem;
+    color: #FFE52A;
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: color 0.1s ease-in;
+    margin-bottom: 2rem;
+}
+
+.top-right-footer p:hover{
+    text-decoration: underline;
+}
+
+.right-lists{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list-h{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.list-link{
+    text-decoration: none;
+    color: inherit;
+}
