@@ -346,18 +346,15 @@
   font-family: "Nunito", sans-serif;
   font-stretch: extra-condensed;
 }
-
-.buildcareer>.grid-container2 {
-  transform: translateX(-155px);
-}
 .grid-container2 {
-  transform:translateX(-155px); 
+  /* transform:translateX(-155px);  */
   display: grid;
   grid-template-columns: repeat(2, 690.5px);
   gap: 10px;
   padding: 10px;
   height: 811.2px;
   width: 1413px;
+  
 }
 
 .buildcareer>.grid-container2>.mydiv {
