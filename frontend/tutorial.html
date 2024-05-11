@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/tutorial.css">
     <link rel="stylesheet" href="./css/prism.css">
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>   
 </head>
 <body>
     <header>
@@ -112,153 +113,8 @@
     </header>
 
     <main>
-        <div class="left-section">
-            <img class="tut-img" src="./images/html-mini-logo.jpg" alt="html">
-            <div class="block">
-                <div class="block-heading">
-                    <p>HTML Tutorial</p>
-                </div>
-                <div class="contents">
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Home</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Overview</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Editors</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Basic Tags</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Elements</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Attributes</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Formatting</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Quotations</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Paragraphs</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Comments</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Phrase Tags</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Meta Tags</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Style Sheets</p>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-            <div class="block">
-                <div class="block-heading">
-                    <p>HTML Tutorial</p>
-                </div>
-                <div class="contents">
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Home</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Overview</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Editors</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Basic Tags</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Elements</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Attributes</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Formatting</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Quotations</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Paragraphs</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Comments</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Phrase Tags</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Meta Tags</p>
-                        </div>
-                    </div>
-                    <div class="cont-block">
-                        <div class="info">
-                            <p>HTML - Style Sheets</p>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-
+        <div id="left-section" class="left-section">
+            <!-- content will be loaded using javascript  -->
         </div>
         <div class="right-section">
             <img class="tut-main-img" src="./images/html.jpg" alt="html">
@@ -346,38 +202,41 @@
                 </p>
 
                 
-                <pre><code class="language-c">
-// This code calculates the factorial of a number
-#include <stdio.h>
+                <md-block>
+                    ```c
+                        // This code calculates the factorial of a number
+                        #include &lt;stdio.h&gt;
 
-int factorial(int n) {
-    if (n == 0) {
-        return 1;
-    } else {
-        return n * factorial(n - 1);
-    }
-}
+                        int factorial(int n) {
+                            if (n == 0) {
+                                return 1;
+                            } else {
+                                return n * factorial(n - 1);
+                            }
+                        }
 
-int main() {
-    int num;
-    printf("Enter a non-negative integer: ");
-    scanf("%d", &num);
+                        int main() {
+                            int num;
+                            printf("Enter a non-negative integer: ");
+                            scanf("%d", &num);
 
-    if (num < 0) {
-        printf("Factorial is not defined for negative numbers.\n");
-    } else {
-        int result = factorial(num);
-        printf("The factorial of %d is %d\n", num, result);
-    }
+                            if (num < 0) {
+                                printf("Factorial is not defined for negative numbers.\n");
+                            } else {
+                                int result = factorial(num);
+                                printf("The factorial of %d is %d\n", num, result);
+                            }
 
-    return 0;
-}
-</code></pre>
+                            return 0;
+                        }
+                    ```
+                </md-block>
             </div>
         </div>
     </main>
     <script src="./js/prism.js"></script>
     <script src="./js/tutorial.js"></script>
+    <script type="module" src="./js/content-render.js"></script>
     <script>
         Prism.highlightAll();
     </script>
