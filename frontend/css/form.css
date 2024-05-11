@@ -22,7 +22,7 @@ nav{
     align-items: center;
     flex-direction: column;
     justify-content:center;
-    background-image: url('images/form/laptop.png'); /* Add background image */
+    background-image: url('../images/form/laptop.png'); /* Add background image */
     background-size: cover; /* Adjust background size */
     background-position: center;
 }
@@ -36,7 +36,7 @@ nav{
     background-color: transparent;
 }
 .auth-flow{
-    background-image: url('images/form/group.png');
+    background-image: url('../images/form/group.png');
     display: flex;
     align-items: center;
     justify-content:center;
@@ -50,7 +50,6 @@ nav{
     flex-direction:column;
     margin-right:18rem;
     margin-bottom: 0;
-
 }
 .auth-create{
     font-weight: 500;
@@ -108,12 +107,10 @@ margin-right:2rem;
     width:12.3vw;
     border:1px solid #2C9D30;
     border-radius: 7px;
-
 }
 .checkbox{
     width:100vw;
     padding:10px;
-
 }
 #chkPromotionalEmail
 {
@@ -141,7 +138,7 @@ margin-right:2rem;
     margin-left:20rem;
 }
 .auth-footer{
-margin-right:16rem;;
+    margin-right:16rem;;
     margin-bottom:60px;
     margin-top:0px;
     padding:5px;
@@ -149,7 +146,6 @@ margin-right:16rem;;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 .or-divider{
     padding-bottom:15px;
@@ -161,19 +157,16 @@ margin-right:16rem;;
     color:black;
     border:1px solid green;
     margin-bottom: 15px;
-   
 }
 .glogo{
     background-color: transparent;
     height:30px;
     padding-right: 5px;
-
 }
 #btnGoogle:hover{
     background-color: antiquewhite;
 }
 .text-center{
-    
     margin-top:2px;
 }
 #sign-in{
