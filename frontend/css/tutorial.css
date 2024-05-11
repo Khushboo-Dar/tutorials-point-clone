@@ -83,6 +83,14 @@ main{
     margin-top: 3rem;
     border-radius: 1rem;
     border: 1px solid #d8d5d5;
+    transition: all 0.5s ease-in;
+    overflow: hidden;
+    max-height: max-content;
+}
+
+.hide{
+    max-height: 0 !important;
+    transition: all 0.5s ease-out;
 }
 
 .list-head{
@@ -122,10 +130,3 @@ main{
     border-radius: 1rem;
     padding: 1rem;
 }
-
-pre{
-    white-space: pre-line;
-}
-/* md-block{
-    white-space: pre;
-} */

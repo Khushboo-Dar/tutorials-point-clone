@@ -265,9 +265,9 @@
             <div class="tut-contents">
                 <div class="contents-head">
                     <h1> <center>HTML Tutorial</center> </h1>
-                    <img src="./images/tableOfContents.svg" alt="toc">
+                    <img onclick="toggle(contents)" src="./images/tableOfContents.svg" alt="toc">
                 </div>
-                <div class="contents-list">
+                <div id="contents" class="hide contents-list">
                     <div class="list-head">
                         <p>Table Of Contents</p>
                     </div>
@@ -377,6 +377,7 @@ int main() {
         </div>
     </main>
     <script src="./js/prism.js"></script>
+    <script src="./js/tutorial.js"></script>
     <script>
         Prism.highlightAll();
     </script>
