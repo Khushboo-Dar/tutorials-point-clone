@@ -450,3 +450,31 @@ export const interpreters = [
         txt : 'SciPy'
     },
 ]
+
+
+export const html_block = [
+    {
+        heading : "HTML Tutorial",
+        topics : ["Home", "History and Evolution", "Overview", "Editors", "Basic Tags", "Elements", "Attributes", "Formatting", "Headings", "Paragraphs", "Quotations", "Comments", "Phrase Tags", "Meta Tags", "Style Sheets", "CSS Classes", "CSS IDs", "Images", "Image Map"]
+    },
+    {
+        heading : "HTML Tables",
+        topics : ["Tables", "Headers & Caption", "Table Styling", "Table Colgroup", "Nested Tables"]
+    },
+    {
+        heading : "HTML Lists",
+        topics : ["Lists", "Unordered Lists", "Ordered Lists", "Definition Lists"]
+    },
+    {
+        heading : "HTML Links",
+        topics : ["Text Links", "Image Links", "Email Links", "Iframes", "Blocks"]
+    },
+    {
+        heading : "HTML Background",
+        topics : ["Backgrounds"]
+    },
+    {
+        heading : "HTML Colors",
+        topics : ["Colors", "RGB", "HEX", "HSL"]
+    }
+]
