@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/tutorial.css">
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    <link rel="stylesheet" href="./css/prism.css">
 </head>
 <body>
     <header>
@@ -341,17 +341,44 @@
                 </ul>
 
                 <p class="theory-head">Get Started with HTML</p>
-                <p class="Paragraph">We offer an <span class="green">HTML Online Editor</span> that enables you to edit and execute HTML code directly within your web browser. Simply click the "Run" button icon to see the HTML Hello World program in action. </p>
-                <md-block>
-                    ```javascript
-                    function square(number) {
-                        return number * number;
-                    }
-                    ```
-                </md-block>
+                <p class="Paragraph">
+                    We offer an <span class="green">HTML Online Editor</span> that enables you to edit and execute HTML code directly within your web browser. Simply click the "Run" button icon to see the HTML Hello World program in action. 
+                </p>
+
+                
+                <pre><code class="language-c">
+// This code calculates the factorial of a number
+#include <stdio.h>
+
+int factorial(int n) {
+    if (n == 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+int main() {
+    int num;
+    printf("Enter a non-negative integer: ");
+    scanf("%d", &num);
+
+    if (num < 0) {
+        printf("Factorial is not defined for negative numbers.\n");
+    } else {
+        int result = factorial(num);
+        printf("The factorial of %d is %d\n", num, result);
+    }
+
+    return 0;
+}
+</code></pre>
             </div>
         </div>
     </main>
-    <script src="prism.js"></script>
+    <script src="./js/prism.js"></script>
+    <script>
+        Prism.highlightAll();
+    </script>
 </body>
 </html>

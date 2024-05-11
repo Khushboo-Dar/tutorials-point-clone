@@ -122,3 +122,10 @@ main{
     border-radius: 1rem;
     padding: 1rem;
 }
+
+pre{
+    white-space: pre-line;
+}
+/* md-block{
+    white-space: pre;
+} */
