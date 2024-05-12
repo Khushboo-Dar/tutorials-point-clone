@@ -89,6 +89,9 @@ margin-right:2rem;
     background-color: white;
     color:black;
 }
+.input:focus{
+    outline:none;
+}
 .code-and-number{
 
     display: flex;
