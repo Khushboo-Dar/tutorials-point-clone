@@ -1,8 +1,5 @@
 body{
-    margin: 0;
-    padding: 0;
-    height: 100vh; 
-    overflow: hidden; 
+    overflow: hidden;
 }
 nav{
     width: 100vw;
@@ -11,20 +8,35 @@ nav{
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .auth-content-wrapper{
-    display: grid;
-    grid-template-columns:30rem 70rem;
-    grid-template-rows: auto; /* Removed fixed height */
+    display: flex;
+    /* justify-content: space-between; */
     height: 100%;
 }
 .auth-aside{
-    background-color:rgb(51, 170, 51);
     display: flex;
+    height: calc(100vh - 70px);
+    width: 25rem;
     align-items: center;
     flex-direction: column;
     justify-content:center;
     background-image: url('../images/form/laptop.png'); /* Add background image */
     background-size: cover; /* Adjust background size */
     background-position: center;
+}
+
+.auth-aside div{
+    width: inherit;
+    height: inherit;
+    background-color:rgba(51, 170, 51, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-logo{
+    width: 20rem;
+    height: 20rem;
 }
 .text-of-auth{
     font-size:1.9rem;
@@ -37,19 +49,19 @@ nav{
 }
 .auth-flow{
     background-image: url('../images/form/group.png');
+    background-size: contain;
     display: flex;
+    width: calc(100vw - 25rem);
     align-items: center;
     justify-content:center;
     flex-direction: column;
 }
 .main-div{
+    padding: 2rem;
     display:flex;
-    align-items:center;
+    /* align-items:center; */
     justify-content: center;
-    transform: translateY(-1rem);
     flex-direction:column;
-    margin-right:18rem;
-    margin-bottom: 0;
 }
 .auth-create{
     font-weight: 500;
@@ -63,18 +75,16 @@ nav{
     display:flex;
     align-items:center;
     justify-content:start;
-    margin-right:34rem;
     font-weight: 400;
     font-family: inherit;
     margin-bottom:1rem;
 }
 .auth-form,.signup-setup{
-display:grid;
-grid-template-columns: 20rem 20rem;
-grid-template-rows:auto;
-gap:3.5rem 3.5rem;
-padding:1.5rem;
-margin-right:2rem;
+    display:grid;
+    grid-template-columns: 24rem 24rem;
+    grid-template-rows:auto;
+    gap:2rem 2rem;
+    padding-block: 1.5rem;
 }
 .label{
     font-weight: 400;
@@ -85,7 +95,7 @@ margin-right:2rem;
     border:1px solid #2C9D30;
     border-radius: 7px;
     padding:10px;
-    width:20vw;
+    width:20rem;
     background-color: white;
     color:black;
 }
@@ -93,21 +103,18 @@ margin-right:2rem;
     outline:none;
 }
 .code-and-number{
-
     display: flex;
     align-items: center;
-    justify-content: start;
-    flex-direction: row;
 }
 .country-code{
-  border:1px solid #2C9D30;
+    border:1px solid #2C9D30;
     border-radius: 7px;
     padding:10px;
-    width:6.6vw;
+    width: 4rem;
     margin-right:2px;
 }
 #phone{
-    width:12.3vw;
+    width:12rem;
     border:1px solid #2C9D30;
     border-radius: 7px;
 }
@@ -141,9 +148,6 @@ margin-right:2rem;
     margin-left:20rem;
 }
 .auth-footer{
-    margin-right:16rem;;
-    margin-bottom:60px;
-    margin-top:0px;
     padding:5px;
     display: flex;
     align-items: center;
