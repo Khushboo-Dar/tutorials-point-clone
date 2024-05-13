@@ -183,3 +183,25 @@ nav{
 #sign-in:hover{
     text-decoration: underline;
 }
+
+/*login page*/
+.auth-form__span-2.password {
+    position: relative;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input {
+    padding-right: 30px; /* Adjust this value based on the width of your icon */
+}
+
+.visibility-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; /* Adjust this value to fine-tune the position */
+    height: 20px; /* Adjust the height of the icon as needed */
+}
+

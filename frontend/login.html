@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/genral.css">
+</head>
+
+<body>
+    <nav>
+        <img class="nav-logo" src="./images/navbar/logo.png" alt="">
+    </nav>
+    <div class="auth-content-wrapper">
+        <aside class="auth-aside">
+            <div>
+                <p class="text-of-auth">Instant learning,
+                    <br>
+                    one click away
+                </p>
+                <img class="aside-logo" src="images/logo.png" alt="logo">
+            </div>
+        </aside>
+        <main class="auth-flow">
+           <div class="login-div">
+             <h1 class="auth-create" id="sign-in">SIGN IN</h1>
+             <form class="auth-form">
+                <div class="auth-form__span-2">
+                    <label class="label" for="email">E-mail address / Mobile number</label>
+                    <input id="login_email" type="text" class="input" placeholder="Enter E-mail address Or Mobile number" value="" required="" autofocus="" maxlength="60">
+                </div>
+                <div class="auth-form__span-2">
+                    <p class="error-message login-email-error-message" hidden="">Please enter a valid E-mail / Mobile number.</p>
+                </div>
+
+                <div class="auth-form__span-2 password">
+                    <label class="label" for="password">Enter Password</label>
+                    <input id="login_password" type="password" class="input" id="pass-word" placeholder="Enter Password" value="" required="">
+                    <span class="login-wrap-hide-pwd togglePassword"> 
+                        <img src="images/form/visi-on.png" class="visibility-icon">
+                    </span>
+                </div>
+                
+				<div class="auth-form__span-2">
+                    <p class="error-message login-passwords-error-message" hidden="">Password must be between 6 &amp; 18 Characters.</p>
+                </div>
+				<div class="max-100">
+					<div class="max-l50 nowrap mt mb">
+						<label class="checkbox">
+							<input id="remember_me" type="checkbox" tabindex="0">
+							<span class="checkmark"></span>Remember Me
+						</label>
+					</div> 
+					<div class="max-r50 nowrap mt mb">
+						<a href="#" class="text-secondary" id="spanForgot">
+							<i class="fa fa-user-check" aria-hidden="true"></i> Forgot password?
+						</a>
+					</div>
+				</div>
+                
+                <button id="sign_in_btn" type="button" class="button auth-form__button">Sign In</button>
+            </form>
+
+
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="auth-footer">
+                <p class="or-divider">or</p>
+                <div class="login">
+                    <a href="#" class="button" id="btnGoogle">
+                        <img class="glogo" src="images/logos/googlelogo3.jpg" alt="gg">
+                        Login with Google
+                    </a>
+                </div>
+                <p class="mt text-center">
+                    Don't have an account?
+                    <a href="#" id="sign-in" class="text-accent-700">Register</a>
+                </p>
+            </div> 
+        </main>
+    </div>
+</body>
+
+</html>
