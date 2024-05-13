@@ -478,3 +478,150 @@ export const html_block = [
         topics : ["Colors", "RGB", "HEX", "HSL"]
     }
 ]
+
+export const dev_tools = [
+    {
+        img : "base64-decode.jpg",
+        title : "Base64 Decode"
+    },
+    {
+        img : "base64-encode.jpg",
+        title : "Base64 Encode"
+    },
+    {
+        img : "c-formatter.jpg",
+        title : "C Fromatter"
+    },
+    {
+        img : "css-formatter.jpg",
+        title : "CSS Formatter"
+    },
+    {
+        img : "dns-lookup.jpg",
+        title : "DNS Lookup"
+    },
+    {
+        img : "hacking-tests.jpg",
+        title : "Hacking Tests"
+    },
+    {
+        img : "host-ip-lookup.jpg",
+        title : "Host IP Lookup"
+    },
+    {
+        img : "html-formatter.jpg",
+        title : "HTML Formatter"
+    },
+    {
+        img : "image-document.jpg",
+        title : "Image Document"
+    },
+    {
+        img : "image-editor.jpg",
+        title : "Image Editor"
+    },
+    {
+        img : "img-optimizer.jpg",
+        title : "Image Optimizer"
+    },
+    {
+        img : "java-formatter.jpg",
+        title : "Java Formatter"
+    },
+    {
+        img : "js-formatter.jpg",
+        title : "Javascript Formatter"
+    },
+    {
+        img : "js-minifier.jpg",
+        title : "Javascript Minifier"
+    },
+    {
+        img : "json-editor.jpg",
+        title : "JSON Editor"
+    },
+    {
+        img : "json-formatter.jpg",
+        title : "JSON Formatter"
+    },
+    {
+        img : "json-minifier.jpg",
+        title : "JSON Minified"
+    },
+    {
+        img : "latex-editor.jpg",
+        title : "LATEX Editor"
+    },
+    {
+        img : "latex-equation.jpg",
+        title : "LATEX Equation"
+    },
+    {
+        img : "netmeeting.jpg",
+        title : "NET Meeting"
+    },
+    {
+        img : "os-detection.jpg",
+        title : "OS Detection"
+    },
+    {
+        img : "perl-formatter.jpg",
+        title : "Perl Formatter"
+    },
+    {
+        img : "php-formatter.jpg",
+        title : "PHP Formatter"
+    },
+    {
+        img : "ping-test.jpg",
+        title : "Ping Test"
+    },
+    {
+        img : "port-scan.jpg",
+        title : "Open Port Scan"
+    },
+    {
+        img : "python-formatter.jpg",
+        title : "Python Formatter"
+    },
+    {
+        img : "qrcode.svg",
+        title : "QR Code"
+    },
+    {
+        img : "ruby-formatter.jpg",
+        title : "Ruby Formatter"
+    },
+    {
+        img : "sql-formatter.jpg",
+        title : "SQL Formatter"
+    },
+    {
+        img : "sql-minifier.jpg",
+        title : "SQL Minifier"
+    },
+    {
+        img : "trace-route.jpg",
+        title : "Trace Route"
+    },
+    {
+        img : "verify-email.jpg",
+        title : "Verify Email"
+    },
+    {
+        img : "whiteboard.jpg",
+        title : "whois-loopup.jpg"
+    },
+    {
+        img : "xml-editor.jpg",
+        title : "XML Editor"
+    },
+    {
+        img : "xml-formatter.jpg",
+        title : "XML Formatter"
+    },
+    {
+        img : "xml-minifier.jpg",
+        title : "XML Minifier"
+    }
+]
